@@ -15,7 +15,9 @@ function sendToTcpServer(data: string) {
     const FORMAT = "utf-8"
 
     const SERVER_PORT = 5001
-    const SERVER_IP = "192.168.1.19"
+
+    // ACA va la direccion ip del servidor
+    const SERVER_IP = "DIR-IP-SERVIDOR"
 
     // cliente que se conecta al servidor TCP 
     const tcpClient = new net.Socket()
